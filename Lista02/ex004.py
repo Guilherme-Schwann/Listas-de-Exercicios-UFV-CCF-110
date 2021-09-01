@@ -1,0 +1,6 @@
+dias = int(input('Insira sua idade em dias: '))
+anos = int(dias / 365)
+dias = dias - (anos * 365)
+meses = int(dias / 31)
+dias = dias - (meses * 31)
+print(f'Sua idade é de {anos} anos, {meses} meses e {dias} dias.')

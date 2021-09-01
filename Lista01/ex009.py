@@ -1,0 +1,5 @@
+num1 = int(input('Insira um número inteiro: '))
+num2 = int(input('Insira outro número inteiro: '))
+num3 = int(input('Insira mais um número inteiro: '))
+total = pow(num1, 2) + pow(num2, 2) + pow(num3, 2)
+print(f'A soma dos quadrados dos 3 números é {total}')
