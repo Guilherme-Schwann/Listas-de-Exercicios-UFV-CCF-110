@@ -1,5 +1,5 @@
 n = int(input('Tamanho do vetor: '))
-v = [int((input())) for x in range(n)]
+v = [int(input()) for x in range(n)]
 v2 = []
 v2quant = []
 for i in range(n):

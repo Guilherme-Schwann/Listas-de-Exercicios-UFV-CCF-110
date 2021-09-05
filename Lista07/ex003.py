@@ -1,7 +1,7 @@
-v = [int(input()) for x in range(5)]
+v = [int(input()) for x in range(15)]
 maior, menor = v[0], v[0]
 ima, ime = 0, 0
-for i in range(5):
+for i in range(15):
     if v[i] > maior:
         maior = v[i]
         ima = i
