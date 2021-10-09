@@ -4,7 +4,7 @@ for i in range(10):
     print(m[i])
 for i in range(10):
     #Troca a segunda e a oitava linha:
-    temp[i] = m[i][i]
+    temp[i] = m[1][i]
     m[1][i] = m[7][i]
     m[7][i] = temp[i]
 for i in range(10):
