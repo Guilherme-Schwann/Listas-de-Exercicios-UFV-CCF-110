@@ -114,5 +114,9 @@ dmypy.json
 .pyre/
 *.xml
 
-# cmake folder
+# Arquivos de teste para lista 11
+Lista11/*.txt
+
+# Cmake
 cmake-build-debug/
+CMakeLists.txt
