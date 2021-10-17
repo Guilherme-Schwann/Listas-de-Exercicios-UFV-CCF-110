@@ -1,0 +1,12 @@
+9.  Considerando as seguintes declarações, qual o valor das seguintes expressões?
+        int i=3, j=5;
+        int *p=&i, *q=&j;
+
+a) p==&i;
+Res.: True.
+
+b) *p-*q;
+Res.: -2
+
+c) **&p;
+Res.: 3

@@ -1,0 +1,8 @@
+3. Qual a maneira correta de referenciar ch, assumindo que o endereço de ch foi atribuído ao ponteiro indica?
+a) *indica;
+b) int *indica;
+c) *indic;
+d) ch;
+e) *ch;
+
+Res.: a)

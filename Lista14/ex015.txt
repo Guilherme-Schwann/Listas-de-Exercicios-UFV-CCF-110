@@ -1,0 +1,56 @@
+15. Dadas as declarações abaixo qual é o valor dos itens?
+        int x=10, *px=&x, **ppx=&px;
+        float y=5.9, *py=&y, **ppy=&py;
+
+        x[FFA0]     y[FFB4]     px[FFF0]    py[FFC6]    ppy[FFA6]   ppx[FFD4]
+
+a) x;
+Res.: 10
+
+b) *py;
+Res.: 5.9
+
+c) px;
+Res.: FFA0
+
+d) &y;
+Res.: FFB4
+
+e) *px;
+Res.: 10
+
+f) y;
+Res.: 5.9
+
+g) *ppx;
+Res.: FFA0
+
+h) py;
+Res.: FFB4
+
+i) &x;
+Res.: FFA0
+
+j) py++;
+Res.: FFB5
+
+k) *py--;
+Res.: 4.9
+
+l) **ppy;
+Res.: 5.9
+
+m) &ppy;
+Res.: FFA6
+
+n) *&px;
+Res.: FFA0
+
+o) **ppx++;
+Res.: 11
+
+p) px++;
+Res.: FFA1
+
+q) &ppx;
+Res.: FFD4

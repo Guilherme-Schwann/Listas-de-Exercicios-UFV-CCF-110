@@ -1,0 +1,7 @@
+4. A expressão float *pont; o que é o tipo float?
+a) a variável pont;
+b) o endereço de pont;
+c) a variável apontada por pont;
+d) nenhuma das anteriores;
+
+Res.: c)

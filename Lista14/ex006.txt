@@ -1,0 +1,4 @@
+6. Assumindo que queremos ler o valor de x, e o endereço de x foi atribuído a px, a instrução seguinte está correta? Por quê?
+    scanf ("%d", *px);
+
+Res.: Não, pois na função "scanf" é necessário nós incluirmos o endereço da variável a ser definida, nesse caso, com o uso do "*", stamos passando a variável em si, e não seu endereço.

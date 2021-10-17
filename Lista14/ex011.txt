@@ -1,0 +1,30 @@
+11. Qual será a saída deste programa?
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+    int *p, *q, i, j;
+    p = &i;
+    //*q=&j;
+    p = &*&i;
+    //i=(*&)j;
+    i=*&*&j;
+    q=p;
+    i=(*p)++ + *q;
+    printf("a) p = &i: \t%d \n", &i);
+    printf("c) p = &*&i: \t%d \n", &*&i);
+    i=(*&j);
+    printf("d) i = (*&)j: \t%d\n",i);
+    printf("e) i = *&*&j: \t%d \n", *&*&j);
+    printf("f) q = &p: \t%d \n", &p);
+    printf("g) i = (*p)++ +*q: \t%d \n", (*p)++ +*q);
+    return 0;
+}
+
+Res.:
+a) p = &i: (endereço de i)
+c) p = &*&i: (endereço de i)
+d) i = (*&)j: (valor de j)
+e) i = *&*&j: (valor de j)
+f) q = &p: (endereço de p)
+g) i = (*p)++ +*q: (valor de i + 1 somado ao valor de i)

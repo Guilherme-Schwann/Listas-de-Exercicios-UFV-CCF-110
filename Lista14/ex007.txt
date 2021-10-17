@@ -1,0 +1,7 @@
+7. Qual é a instrução que deve ser adicionada ao programa seguinte para que ele trabalhe corretamente?
+main () {
+    int j, *pj;
+    *pj = 3;
+}
+
+Res.: pj = &j;

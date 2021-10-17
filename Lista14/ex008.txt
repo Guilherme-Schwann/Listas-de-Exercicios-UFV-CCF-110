@@ -1,0 +1,3 @@
+8. Assumindo que o endereço da variável x foi atribuído a um ponteiro px, escreva uma expressão que não usa x e divida x por 5.
+
+Res.: resultado = *px / 5;
