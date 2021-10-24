@@ -1,19 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void quadrado(int lado) {
-    if (lado == 0 || lado %  == 0) {
+void quadrado(int lado, int total) {
+    if (total == 0) {
         printf("\n");
+        return;
     } else {
-        printf("*");
-        quadrado(lado-1);
+        if (total % (lado+1) == 0) {
+            printf("\n");
+            quadrado(lado, total - 1);
+        } else {
+            printf("* ");
+            quadrado(lado, total - 1);
+        }
     }
 }
 
 int main() {
     int d;
     scanf("%d", &d);
-    quadrado(d*d);
+    quadrado(d, d*(d+1));
     system("PAUSE");
     return 0;
 }
